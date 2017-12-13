@@ -369,6 +369,13 @@ ul li a {
     /*    line-height: 2.5;*/
 }
 
+.special {
+    background: #0284A8;
+    color: white;
+    border-radius: 50px;
+/*    margin: 0 10px;*/
+}
+
 .menu {
     width: 30px;
     height: 34px;
