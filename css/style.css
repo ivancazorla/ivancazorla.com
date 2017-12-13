@@ -163,7 +163,7 @@ p {
 
 /*-PHONE-*/
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     #container {
         margin: 20px;
     }
@@ -230,7 +230,7 @@ p {
 */
 /*---TABLET---*/
 
-@media screen and (max-width: 1068px) and (min-width: 768px) {
+@media (max-width: 1068px) and (min-width: 768px) {
     #container {
         margin: 50px;
     }
@@ -258,7 +258,7 @@ p {
 
 /*---DESKTOP---*/
 
-@media screen and (min-width: 1068px) {
+@media (min-width: 1068px) {
     #container {
         margin: 50px;
     }
