@@ -9,10 +9,9 @@
 
 body {
     margin: 0;
-    font-family: 'Varela Round', 'Barlow', brandon grotesque, sans-serif;
+    font-family: 'Varela Round', sans-serif;
     color: #222;
     background: #fafafa;
-    /*    background: red;*/
 }
 
 p {
@@ -49,7 +48,6 @@ p {
 .logo a {
     text-decoration: none;
     text-transform: uppercase;
-    /*    text-decoration: line-through;*/
     color: #222;
     font-size: 20px;
     letter-spacing: 3px;
@@ -97,7 +95,6 @@ p {
         font-size: 40px;
         line-height: 57px;
         height: 85vh;
-        /*        padding-bottom: 50px;*/
     }
     #work {
         padding-bottom: 50px;
@@ -149,7 +146,6 @@ p {
         font-size: 75px;
         line-height: 108px;
         height: 85vh;
-        /*        padding-bottom: 140px;*/
         margin-top: -20px;
     }
     .button {
@@ -197,10 +193,8 @@ p {
     #hero {
         max-width: 1000px;
         font-size: 90px;
-        /*        height: 85vh;*/
         padding-bottom: 140px;
         clear: both;
-        /*        margin-top: -20px;*/
         line-height: 1.2;
     }
     #hero p {
@@ -231,51 +225,16 @@ p {
     }
 }
 
-/*---------------------------------------------------*/
-
-/*---------------------------------------------------*/
-
-/*---------------------------------------------------*/
-
-/*---------------------------------------------------*/
-
-/*---------------------------------------------------*/
-
 #work h2 {
     text-transform: uppercase;
     color: #222;
     font-size: 30px;
     text-align: left;
-    /*    font-weight: 500;*/
 }
 
 #text {
     clear: both;
 }
-
-/*
-.project1 {
-    width: 48%;
-    float: left;
-}
-
-.project2 {
-    width: 48%;
-    float: right;
-}
-*/
-
-/*
-.antilop1 {
-    width: 100%;
-    float: left;
-}
-
-.antilop2 {
-    width: 100%;
-    float: right;
-}
-*/
 
 footer {
     background: #222;
@@ -309,7 +268,6 @@ ul li {
     display: -webkit-inline-box;
     margin: 0;
     padding: 10px 0;
-    /*    background: blue;*/
 }
 
 ul li a {
@@ -318,14 +276,12 @@ ul li a {
     text-decoration: none;
     font-size: 20px;
     padding: 10px 20px;
-    /*    line-height: 2.5;*/
 }
 
 .special {
     background: #0284A8;
     color: white;
     border-radius: 50px;
-    /*    margin: 0 10px;*/
 }
 
 .menu {
