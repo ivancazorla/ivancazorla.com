@@ -3,13 +3,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-input {
-    -webkit-appearance: none;
-    box-shadow: none !important;
-}
-
-input-webkit-autofill {
-    color: #fff !important;
+:focus {
+    outline: none;
 }
 
 body {
@@ -22,6 +17,22 @@ body {
 
 p {
     margin: 0;
+}
+
+.email {
+    color: #b7b7b7;
+    text-decoration: none;
+    border-bottom: 10px solid #222;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+}
+
+.email:hover {
+    color: #b7b7b7;
+    text-decoration: none;
+    border-bottom: 5px solid #222;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
 }
 
 .logo {
@@ -330,7 +341,6 @@ ul li a {
 
 .bar {
     background-color: #222;
-    /*    width: 30px;*/
     height: 2px;
     margin: 7px 0;
 }
@@ -348,6 +358,10 @@ ul li a {
 .italic {
     border-width: 0;
     padding: 0;
+}
+
+i.fa.fa-heart {
+    border-width: 0;
 }
 
 i {
@@ -371,9 +385,3 @@ i {
     margin: 5px 0px 3px 30px;
     transition: all .2s ease-out;
 }
-
-/*
-.button a:hover {
-    background-color: #025c75;
-    transition: all .2s ease-out;
-}*/
