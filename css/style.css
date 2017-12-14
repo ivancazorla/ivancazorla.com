@@ -107,6 +107,8 @@ p {
     }
     .show {
         right: 0;
+        top: 0;
+        color: red;
     }
    
     .nav-mobile ul {
