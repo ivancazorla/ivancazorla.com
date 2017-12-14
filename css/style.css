@@ -34,7 +34,7 @@ p {
     font-size: 20px;
     letter-spacing: 3px;
     text-align: left;
-    font-weight: 500;
+    font-weight: 600;
     float: left;
 }
 
@@ -66,7 +66,7 @@ p {
         display: none;
     }
     .menu {
-        margin: 27px 20px 28px 20px;
+        margin: 7px 20px 8px 20px;
         transition: all .3s ease-out;
     }
     #hero {
@@ -188,7 +188,6 @@ footer {
 
 header {
     background: transparent;
-    /*    background: red;*/
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -233,9 +232,9 @@ ul li a {
     height: 34px;
     z-index: 100 !important;
     transition: all .3s ease-out;
-    position: fixed;
-    right: 0;
-    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    float: right;
     cursor: pointer;
 }
 
