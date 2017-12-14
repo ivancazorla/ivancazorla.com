@@ -113,7 +113,8 @@ body {
     margin: 0;
     font-family: brandon grotesque, sans-serif;
     color: #222;
-    background: #fafafa;
+/*    background: #fafafa;*/
+    background: red;
 }
 
 p {
