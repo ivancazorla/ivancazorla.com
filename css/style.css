@@ -148,17 +148,17 @@ p {
 }
 
 .active {
-    background-color: red;
+    background-color: #fff;
 }
 
 /*-PHONE-*/
 
 @media (max-width: 768px) {
     #container {
-        max-width: 500px;
+/*        max-width: 500px;*/
         /*        border: 2px solid black;*/
-        padding: 50px 20px;
-        margin: auto;
+/*        padding: 50px 20px;*/
+        margin: 20px;
     }
     body {
         /*        background: orange;*/
