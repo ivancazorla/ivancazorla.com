@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    font-family: 'Barlow', brandon grotesque, sans-serif;
+    font-family: 'Varela Round', 'Barlow', brandon grotesque, sans-serif;
     color: #222;
     background: #fafafa;
     /*    background: red;*/
@@ -42,9 +42,11 @@ p {
     overflow: auto;
 }
 
-.active {
+.user-scrolls {
     background-color: #fff;
     box-shadow: 0 2px 31px rgba(0, 0, 0, .2);
+    padding: 20px 50px;
+    transition: all .2s ease-out;
 }
 
 /*-MOBILE-*/
@@ -61,14 +63,14 @@ p {
     }
     header {
         padding: 20px;
-        transition: all .3s ease-out;
+        transition: all .2s ease-out;
     }
     .nav {
         display: none;
     }
     .menu {
         margin: 7px 20px 8px 20px;
-        transition: all .3s ease-out;
+        transition: all .2s ease-out;
     }
     #hero {
         font-size: 40px;
@@ -79,8 +81,11 @@ p {
     #work {
         padding-bottom: 50px;
     }
+    .button {
+        padding-top: 40px;
+    }
     .button a {
-        font-size: 22px;
+        font-size: 25px;
     }
     #work h2 {
         margin: 0;
@@ -112,11 +117,11 @@ p {
     }
     header {
         padding: 50px;
-        transition: all .3s ease-out;
+        transition: all .2s ease-out;
     }
     .menu {
         display: none;
-        transition: all .3s ease-out;
+        transition: all .2s ease-out;
         margin: 47px 50px 48px 50px;
     }
     #hero {
@@ -161,11 +166,11 @@ p {
     }
     header {
         padding: 50px;
-        transition: all .3s ease-out;
+        transition: all .2s ease-out;
     }
     .menu {
         display: none;
-        transition: all .3s ease-out;
+        transition: all .2s ease-out;
         margin: 47px 50px 48px 50px;
     }
     #hero {
@@ -174,7 +179,12 @@ p {
         /*        height: 85vh;*/
         padding-bottom: 140px;
         clear: both;
-        margin-top: -20px;
+        /*        margin-top: -20px;*/
+        line-height: 1.2;
+    }
+    #hero p {
+        margin-left: -3px;
+        margin-top: -15px;
     }
     .button {
         padding-top: 40px;
@@ -261,6 +271,7 @@ header {
     position: -webkit-sticky;
     top: 0;
     overflow: auto;
+    z-index: 1000;
 }
 
 ul {
@@ -300,7 +311,7 @@ ul li a {
     width: 30px;
     height: 34px;
     z-index: 100 !important;
-    transition: all .3s ease-out;
+    transition: all .2s ease-out;
     position: sticky;
     position: -webkit-sticky;
     float: right;
@@ -317,14 +328,15 @@ ul li a {
 .button a {
     color: white;
     text-decoration: none;
-    background-color: #0284A8;
+    background-color: #222;
     border-radius: 5px;
     padding: 20px 60px;
     text-align: center;
-    transition: all .3s ease-out;
+    transition: all .2s ease-out;
 }
 
+/*
 .button a:hover {
     background-color: #025c75;
-    transition: all .3s ease-out;
-}
+    transition: all .2s ease-out;
+}*/
