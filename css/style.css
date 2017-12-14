@@ -111,28 +111,14 @@
 
 body {
     margin: 0;
-    /*    padding: 50px;*/
     font-family: brandon grotesque, sans-serif;
     color: #222;
+    background: #fafafa;
 }
 
 p {
     margin: 0;
 }
-
-/*
-.logo-icon {
-    width: 0;
-    height: 0;
-    border-top: 0px solid transparent;
-    border-bottom: 29px solid transparent;
-    border-left: 20px solid #222;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 30px 0 0 30px;
-}
-*/
 
 .logo {
     margin: 0;
@@ -161,14 +147,21 @@ p {
     overflow: auto;
 }
 
+.active {
+    background-color: red;
+}
+
 /*-PHONE-*/
 
 @media (max-width: 768px) {
     #container {
-        margin: 20px;
+        max-width: 500px;
+        /*        border: 2px solid black;*/
+        padding: 50px 20px;
+        margin: auto;
     }
     body {
-/*        background: orange;*/
+        /*        background: orange;*/
     }
     header {
         padding: 20px;
@@ -187,47 +180,10 @@ p {
         padding-bottom: 140px;
     }
     .button a {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
-/*---PHONE---*/
-/*
-@media screen and (max-width: 768px) and (min-width: 450px) {
-    #container {
-        margin: 30px;
-    }
-    body {
-        background: purple;
-    }
-    header {
-        padding: 30px;
-        transition: all .3s ease-out;
-    }
-    .nav {
-        display: none;
-    }
-    .menu {
-        margin: 37px 30px 38px 30px;
-        transition: all .3s ease-out;
-    }
-    #hero:first-of-type {
-        font-size: 44px;
-        line-height: 63px;
-    }
-    #hero {
-        font-size: 44px;
-        line-height: 63px;
-        padding-bottom: 140px;
-    }
-    #hero:last-of-type {
-        padding-bottom: 140px;
-    }
-    .button a {
-        font-size: 30px;
-    }
-}
-*/
 /*---TABLET---*/
 
 @media (max-width: 1068px) and (min-width: 768px) {
@@ -235,7 +191,7 @@ p {
         margin: 50px;
     }
     body {
-/*        background: blue;*/
+        /*        background: blue;*/
     }
     header {
         padding: 50px;
@@ -263,7 +219,7 @@ p {
         margin: 50px;
     }
     body {
-/*        background: lightblue;*/
+        /*        background: lightblue;*/
     }
     header {
         padding: 50px;
@@ -336,8 +292,8 @@ footer {
 }
 
 header {
-    background: #fff;
-/*    background: red;*/
+    background: transparent;
+    /*    background: red;*/
     position: sticky;
     top: 0;
     overflow: auto;
@@ -373,7 +329,7 @@ ul li a {
     background: #0284A8;
     color: white;
     border-radius: 50px;
-/*    margin: 0 10px;*/
+    /*    margin: 0 10px;*/
 }
 
 .menu {
@@ -395,26 +351,21 @@ ul li a {
 }
 
 .button {
-    padding-top: 75px;
+    padding-top: 50px;
     margin: 0;
 }
 
 .button a {
     color: white;
     text-decoration: none;
-    /*font-size: 50px;*/
-    margin: 0;
-    padding: 0;
     background-color: #0284A8;
     border-radius: 5px;
     padding: 20px 60px;
-    text-align: left;
-    margin: 0;
+    text-align: center;
     transition: all .3s ease-out;
 }
 
 .button a:hover {
     background-color: #025c75;
-    /*    border-radius: 20px;*/
     transition: all .3s ease-out;
 }
