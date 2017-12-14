@@ -190,6 +190,7 @@ header {
     background: transparent;
     /*    background: red;*/
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     overflow: auto;
 }
