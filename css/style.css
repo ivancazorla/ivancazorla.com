@@ -73,7 +73,7 @@ p {
     #hero {
         font-size: 40px;
         line-height: 57px;
-        height: 100vh;
+        height: 85vh;
 /*        padding-bottom: 50px;*/
     }
     #work {
@@ -122,7 +122,7 @@ p {
     #hero {
         font-size: 75px;
         line-height: 108px;
-        height: 100vh;
+        height: 85vh;
 /*        padding-bottom: 140px;*/
     }
     .button a {
@@ -132,7 +132,6 @@ p {
         width: 48%;
         float: left;
     }
-
     .project2 {
         width: 48%;
         float: right;
@@ -141,7 +140,6 @@ p {
         width: 100%;
         float: left;
     }
-
     .antilop2 {
         width: 100%;
         float: right;
@@ -168,7 +166,7 @@ p {
     }
     #hero {
         font-size: 150px;
-        height: 100vh;
+        height: 85vh;
 /*        padding-bottom: 140px;*/
         clear: both;
     }
@@ -179,7 +177,6 @@ p {
         width: 48%;
         float: left;
     }
-
     .project2 {
         width: 48%;
         float: right;
@@ -188,7 +185,6 @@ p {
         width: 100%;
         float: left;
     }
-
     .antilop2 {
         width: 100%;
         float: right;
