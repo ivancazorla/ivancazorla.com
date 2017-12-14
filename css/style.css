@@ -74,7 +74,7 @@ p {
         font-size: 40px;
         line-height: 57px;
         height: 85vh;
-/*        padding-bottom: 50px;*/
+        /*        padding-bottom: 50px;*/
     }
     #work {
         padding-bottom: 50px;
@@ -123,10 +123,14 @@ p {
         font-size: 75px;
         line-height: 108px;
         height: 85vh;
-/*        padding-bottom: 140px;*/
+        /*        padding-bottom: 140px;*/
+        margin-top: -20px;
+    }
+    .button {
+        padding-top: 40px;
     }
     .button a {
-        font-size: 40px;
+        font-size: 30px;
     }
     .project1 {
         width: 48%;
@@ -165,13 +169,18 @@ p {
         margin: 47px 50px 48px 50px;
     }
     #hero {
-        font-size: 150px;
-        height: 85vh;
-/*        padding-bottom: 140px;*/
+        max-width: 1000px;
+        font-size: 90px;
+        /*        height: 85vh;*/
+        padding-bottom: 140px;
         clear: both;
+        margin-top: -20px;
+    }
+    .button {
+        padding-top: 40px;
     }
     .button a {
-        font-size: 50px;
+        font-size: 35px;
     }
     .project1 {
         width: 48%;
@@ -303,11 +312,6 @@ ul li a {
     /*    width: 30px;*/
     height: 2px;
     margin: 7px 0;
-}
-
-.button {
-    padding-top: 50px;
-    margin: 0;
 }
 
 .button a {
