@@ -31,10 +31,10 @@
     </header>
     <section id="container">
         <div id="hero">
-            <p>I design <i>and</i> code experiences that make people's lives <b>simple.</b></p>
+            <p>I design <i>and</i> code experiences that make people's lives simple.</p>
 
             <div class="button">
-                <a href="#work">See my work</a>
+                <a href="#work">See my work<i class="right"></i></a>
             </div>
         </div>
         <div id="work">
@@ -57,6 +57,23 @@
                     } else {
                         $(".header").removeClass("user-scrolls");
                     }
+                });
+            });
+
+            $(document).ready(function() {
+                $(".button a").mouseover(function() {
+                    $(".right").css("transform", "rotate(45deg)");
+                    $(".right").css("-webkit-transform", "rotate(45deg)");
+                    $(".right").css("margin", "5px 0px 7px 50px");
+                    $(".right").css("transition", "all .2s ease-out");
+                });
+            });
+            
+            $(document).ready(function() {
+                $(".button a").mouseout(function() {
+                    $(".right").css("transform", "rotate(-45deg)");
+                    $(".right").css("margin", "5px 0px 3px 30px");
+                    $(".right").css("transition", "all .2s ease-out");
                 });
             });
         </script>

@@ -335,6 +335,28 @@ ul li a {
     transition: all .2s ease-out;
 }
 
+i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transition: all .2s ease-out;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin: 5px 0px 3px 30px;
+    transition: all .2s ease-out;
+}
+
+.right:hover {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 5px 0px 3px 30px;
+    transition: all .2s ease-out;
+}
+
 /*
 .button a:hover {
     background-color: #025c75;
