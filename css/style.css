@@ -76,6 +76,9 @@ p {
         /*        padding: 50px 20px;*/
         margin: 20px;
     }
+    .user-scrolls {
+        padding: 0;
+    }
     body {
         /*        background: orange;*/
     }
@@ -129,6 +132,9 @@ p {
     #container {
         margin: 50px;
     }
+    .user-scrolls {
+        padding: 20px 50px;
+    }
     body {
         /*        background: blue;*/
     }
@@ -176,6 +182,9 @@ p {
 @media (min-width: 1068px) {
     #container {
         margin: 50px;
+    }
+    .user-scrolls {
+        padding: 20px 50px;
     }
     body {
         /*        background: lightblue;*/
