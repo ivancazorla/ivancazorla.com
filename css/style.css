@@ -7,6 +7,15 @@
     outline: none;
 }
 
+/*-FONTS-*/
+
+@font-face {
+    font-family: 'Varela Round';
+    src: url('fonts/varela-round.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: 'Varela Round', sans-serif;
@@ -80,7 +89,7 @@ p {
         padding: 20px;
     }
     body {
-/*        background: lightblue;*/
+        /*        background: lightblue;*/
     }
     header {
         padding: 20px;
