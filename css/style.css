@@ -59,7 +59,6 @@ p {
 #container {
     overflow: auto;
 }
-
 .no-container {
     display: none;
 }
@@ -100,8 +99,8 @@ p {
         position: fixed;
         top: -100%;
         right: 0;
-        transition: all .3s ease-out;
-        -webkit-transition: all .3s ease-out;
+        transition: all .4s ease-out;
+        -webkit-transition: all .4s ease-out;
         margin: 0;
         padding: 0;
         z-index: 3000 !important;
@@ -116,8 +115,8 @@ p {
         right: 0;
         top: 0;
         padding-top: 160px;
-        transition: all .3s ease-out;
-        -webkit-transition: all .3s ease-out;
+        transition: all .4s ease-out;
+        -webkit-transition: all .4s ease-out;
         z-index: 3000 !important;
     }
     .nav-mobile ul {
@@ -339,8 +338,8 @@ header {
 .hamburger {
     width: 30px;
     height: 34px;
-    transition: all .3s ease-out;
-    -webkit-transition: all .3s ease-out;
+    transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
     position: sticky;
     position: -webkit-sticky;
     float: right;
@@ -354,8 +353,8 @@ header {
     background-color: #222;
     height: 2px;
     margin: 7px 0;
-    transition: all .3s ease-out;
-    -webkit-transition: all .3s ease-out;
+    transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
 }
 
 .bar2 {
@@ -366,8 +365,8 @@ header {
 .bar-color {
     background-color: #fff;
     z-index: 2000;
-    transition: all .3s ease-out;
-    -webkit-transition: all .3s ease-out;
+    transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
 }
 
 .moveOne {
