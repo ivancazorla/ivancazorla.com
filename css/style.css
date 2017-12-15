@@ -22,16 +22,16 @@ p {
     color: #b7b7b7;
     text-decoration: none;
     border-bottom: 10px solid #222;
-    transition: all .2s ease-out;
-    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
 }
 
 .email:hover {
     color: #b7b7b7;
     text-decoration: none;
     border-bottom: 5px solid #222;
-    transition: all .2s ease-out;
-    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
 }
 
 .logo {
@@ -63,8 +63,8 @@ p {
 .user-scrolls {
     background-color: #fff;
     box-shadow: 0 2px 31px rgba(0, 0, 0, .2);
-    transition: all .2s ease-out;
-    -webkit-transition: all .2s ease-out;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
 }
 
 /*-MOBILE-*/
@@ -84,7 +84,7 @@ p {
     }
     header {
         padding: 20px;
-        transition: all .2s ease-out;
+        transition: all .2s ease-in-out;
     }
     .headerBigger {
         height: 100%;
@@ -100,8 +100,8 @@ p {
         position: fixed;
         top: -100%;
         right: 0;
-        transition: all .4s ease-out;
-        -webkit-transition: all .4s ease-out;
+        transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
         margin: 0;
         z-index: 3000;
     }
@@ -128,8 +128,8 @@ p {
     }
     .menu {
         margin: 7px 20px 8px 20px;
-        transition: all .2s ease-out;
-        -webkit-transition: all .2s ease-out;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
     }
     #hero {
         font-size: 40px;
@@ -178,11 +178,11 @@ p {
     }
     header {
         padding: 50px;
-        transition: all .2s ease-out;
+        transition: all .2s ease-in-out;
     }
     .menu {
         display: none;
-        transition: all .2s ease-out;
+        transition: all .2s ease-in-out;
         margin: 47px 50px 48px 50px;
     }
     #hero {
@@ -235,11 +235,11 @@ p {
     }
     header {
         padding: 50px;
-        transition: all .2s ease-out;
+        transition: all .2s ease-in-out;
     }
     .menu {
         display: none;
-        transition: all .2s ease-out;
+        transition: all .2s ease-in-out;
         margin: 47px 50px 48px 50px;
     }
     #hero {
@@ -335,8 +335,8 @@ header {
 .hamburger {
     width: 30px;
     height: 34px;
-    transition: all .4s ease-out;
-    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
     position: sticky;
     position: -webkit-sticky;
     float: right;
@@ -350,20 +350,20 @@ header {
     background-color: #222;
     height: 2px;
     margin: 7px 0;
-    transition: all .4s ease-out;
-    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
 }
 
 .bar2 {
-    transition: all .1s ease-out;
-    -webkit-transition: all .1s ease-out;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
 }
 
 .bar-color {
     background-color: #fff;
     z-index: 2000;
-    transition: all .4s ease-out;
-    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
 }
 
 .moveOne {
@@ -373,8 +373,8 @@ header {
 
 .moveTwo {
     opacity: 0;
-    transition: all .1s ease-out;
-    -webkit-transition: all .1s ease-out;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
 }
 
 .moveThree {
@@ -389,7 +389,7 @@ header {
     border-radius: 5px;
     padding: 20px 60px;
     text-align: center;
-    transition: all .2s ease-out;
+    transition: all .2s ease-in-out;
 }
 
 i.fa.fa-heart {
@@ -401,21 +401,21 @@ i {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 5px;
-    transition: all .2s ease-out;
+    transition: all .2s ease-in-out;
 }
 
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     margin: 5px 0px 3px 30px;
-    transition: all .2s ease-out;
+    transition: all .2s ease-in-out;
 }
 
 .right:hover {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     margin: 5px 0px 3px 30px;
-    transition: all .2s ease-out;
+    transition: all .2s ease-in-out;
 }
 
 .no-scrolling {
