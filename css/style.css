@@ -61,7 +61,7 @@ p {
 }
 
 .no-container {
-    z-index: -1000;
+   background: red;
 }
 
 .user-scrolls {
