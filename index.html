@@ -35,9 +35,9 @@
     <header class="header">
         <h1 class="logo"><a href="index.html">Ivan Cazorla</a></h1>
         <div class="hamburger" onclick="showNav()">
-            <div class="bar1" onclick="moveBars()"></div>
-            <div class="bar2" onclick="moveBars()"></div>
-            <div class="bar3" onclick="moveBars()"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
         </div>
         <ul class="nav">
             <li><a href="about.html">About</a></li>
@@ -77,9 +77,14 @@
                 $(".nav-mobile").toggleClass("show");
                 $(".bar1, .bar2, .bar3").toggleClass("bar-color");
                 $("html, body").toggleClass("no-scrolling");
-                $("#container, footer").toggleClass("no-container");
+                $(".bar1").toggleClass("moveOne");
+                $(".bar2").toggleClass("moveTwo");
+                $(".bar3").toggleClass("moveThree");
             }
-            function moveBars() {
+            function showNavToo() {
+                $(".nav-mobile").toggleClass("show");
+                $(".bar1, .bar2, .bar3").toggleClass("bar-color");
+                $("html, body").toggleClass("no-scrolling");
                 $(".bar1").toggleClass("moveOne");
                 $(".bar2").toggleClass("moveTwo");
                 $(".bar3").toggleClass("moveThree");
