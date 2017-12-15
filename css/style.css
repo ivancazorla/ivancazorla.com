@@ -309,8 +309,7 @@ p {
 
 .show {
     top: 0;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: 20%;
     z-index: 3000;
 }
 
