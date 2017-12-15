@@ -76,6 +76,10 @@
             function showNav() {
                 $(".nav-mobile").toggleClass("show");
                 $(".bar").toggleClass("bar-color");
+                $('html, body').css({
+                    overflow: 'hidden',
+                    height: '100%'
+                });
             }
             //header changes color and height when user scrolls
             $(function() {
