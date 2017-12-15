@@ -347,7 +347,6 @@ header {
     cursor: pointer;
     z-index: 4000;
 }
-
 .bar1, .bar2, .bar3 {
     background-color: #222;
     height: 2px;
@@ -365,18 +364,16 @@ header {
     transition: all .3s ease-out;
     -webkit-transition: all .3s ease-out;
 }
-
-.move1 {
+.moveOne {
     transform: translateY(9px) rotate(-45deg);
     -webkit-transform: translateY(9px) rotate(-45deg);
-    
 }
-.move2 {
+.moveTwo {
     opacity: 0;
     transition: all .1s ease-out;
     -webkit-transition: all .1s ease-out;
 }
-.move3 {
+.moveThree {
     transform: translateY(-9px) rotate(45deg);
     -webkit-transform: translateY(-9px) rotate(45deg);
 }
