@@ -25,7 +25,7 @@
             <li><a href="work.html">Work</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <ul class="nav-mobile">
+        <ul class="nav-hamburger">
             <li><a href="about.html">About</a></li>
             <li><a href="process.html">Process</a></li>
             <li><a href="work.html">Work</a></li>
@@ -55,23 +55,21 @@
         <script>
             //menu mobile working
             function showNav() {
-                $(".nav-mobile").toggleClass("show");
+                $(".nav-hamburger").toggleClass("show");
                 $(".bar1, .bar2, .bar3").toggleClass("bar-color");
                 $("html, body").toggleClass("no-scrolling");
                 $(".bar1").toggleClass("moveOne");
                 $(".bar2").toggleClass("moveTwo");
                 $(".bar3").toggleClass("moveThree");
-                $(".header").toggleClass("headerBigger");
             }
 
             function showNavToo() {
-                $(".nav-mobile").toggleClass("show");
+                $(".nav-hamburger").toggleClass("show");
                 $(".bar1, .bar2, .bar3").toggleClass("bar-color");
                 $("html, body").toggleClass("no-scrolling");
                 $(".bar1").toggleClass("moveOne");
                 $(".bar2").toggleClass("moveTwo");
                 $(".bar3").toggleClass("moveThree");
-                $(".header").toggleClass("headerBigger");
             }
             //header changes color and padding when user scrolls
             $(function() {
