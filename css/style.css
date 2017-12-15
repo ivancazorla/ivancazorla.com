@@ -99,9 +99,11 @@ p {
         transition: all .4s ease-out;
         -webkit-transition: all .4s ease-out;
         margin: 0;
+        z-index: 3000;
     }
     .show {
         top: 0;
+        z-index: 3000;
 /*        padding-top: 160px;*/
     }
     .nav-mobile a {
