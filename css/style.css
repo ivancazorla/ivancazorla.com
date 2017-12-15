@@ -100,7 +100,7 @@ p {
         -webkit-transition: all .4s ease-out;
         margin: 0;
         padding: 0;
-        z-index: 3000 !important;
+        z-index: 6000;
     }
     .nav-mobile a {
         color: white;
@@ -116,7 +116,7 @@ p {
         padding-top: 160px;
         transition: all .4s ease-out;
         -webkit-transition: all .4s ease-out;
-        z-index: 3000 !important;
+        z-index: 6000;
     }
     .nav-mobile ul {
         margin: 0;
