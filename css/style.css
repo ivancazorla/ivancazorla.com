@@ -61,7 +61,7 @@ p {
 }
 
 .no-container {
-   background: red;
+    display: none;
 }
 
 .user-scrolls {
@@ -347,32 +347,40 @@ header {
     cursor: pointer;
     z-index: 4000;
 }
-.bar1, .bar2, .bar3 {
+
+.bar1,
+.bar2,
+.bar3 {
     background-color: #222;
     height: 2px;
     margin: 7px 0;
     transition: all .3s ease-out;
     -webkit-transition: all .3s ease-out;
 }
+
 .bar2 {
     transition: all .1s ease-out;
     -webkit-transition: all .1s ease-out;
 }
+
 .bar-color {
     background-color: #fff;
     z-index: 2000;
     transition: all .3s ease-out;
     -webkit-transition: all .3s ease-out;
 }
+
 .moveOne {
     transform: translateY(9px) rotate(-45deg);
     -webkit-transform: translateY(9px) rotate(-45deg);
 }
+
 .moveTwo {
     opacity: 0;
     transition: all .1s ease-out;
     -webkit-transition: all .1s ease-out;
 }
+
 .moveThree {
     transform: translateY(-9px) rotate(45deg);
     -webkit-transform: translateY(-9px) rotate(45deg);
