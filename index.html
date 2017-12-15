@@ -35,9 +35,9 @@
     <header class="header">
         <h1 class="logo"><a href="index.html">Ivan Cazorla</a></h1>
         <div class="hamburger" onclick="showNav()">
-            <div class="bar" onclick="changeColor()"></div>
-            <div class="bar" onclick="changeColor()"></div>
-            <div class="bar" onclick="changeColor()"></div>
+            <div class="bar1" onclick="move1()"></div>
+            <div class="bar2" onclick="move2()"></div>
+            <div class="bar3" onclick="move3()"></div>
         </div>
         <ul class="nav">
             <li><a href="about.html">About</a></li>
@@ -75,9 +75,11 @@
         <script>
             function showNav() {
                 $(".nav-mobile").toggleClass("show");
-                $(".bar").toggleClass("bar-color");
+                $(".bar1, .bar2, .bar3").toggleClass("bar-color");
+                $(".bar1").toggleClass("move1");
+                $(".bar2").toggleClass("move2");
+                $(".bar3").toggleClass("move3");
                 $("html, body").toggleClass("no-scrolling");
-
             }
             //header changes color and height when user scrolls
             $(function() {
