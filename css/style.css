@@ -100,23 +100,16 @@ p {
         -webkit-transition: all .4s ease-out;
         margin: 0;
         padding: 0;
-        z-index: 6000;
+    }
+    .show {
+        top: 0;
+/*        padding-top: 160px;*/
     }
     .nav-mobile a {
         color: white;
         text-decoration: none;
         padding: 10px 20px;
         font-size: 30px;
-    }
-    .show {
-        height: 100%;
-        width: 100%;
-        right: 0;
-        top: 0;
-        padding-top: 160px;
-        transition: all .4s ease-out;
-        -webkit-transition: all .4s ease-out;
-        z-index: 6000;
     }
     .nav-mobile ul {
         margin: 0;
