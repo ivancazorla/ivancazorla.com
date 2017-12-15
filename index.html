@@ -73,6 +73,7 @@
     <footer>
         <p>Crafted with <i style="color:#D04848" class="fa fa-heart"></i> by Ivan Cazorla</p>
         <script>
+            //menu mobile working
             function showNav() {
                 $(".nav-mobile").toggleClass("show");
                 $(".bar1, .bar2, .bar3").toggleClass("bar-color");
@@ -80,6 +81,7 @@
                 $(".bar1").toggleClass("moveOne");
                 $(".bar2").toggleClass("moveTwo");
                 $(".bar3").toggleClass("moveThree");
+                $(".header").toggleClass("headerBigger");
             }
             function showNavToo() {
                 $(".nav-mobile").toggleClass("show");
@@ -88,6 +90,7 @@
                 $(".bar1").toggleClass("moveOne");
                 $(".bar2").toggleClass("moveTwo");
                 $(".bar3").toggleClass("moveThree");
+                $(".header").toggleClass("headerBigger");
             }
             //header changes color and height when user scrolls
             $(function() {

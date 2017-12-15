@@ -86,6 +86,9 @@ p {
         padding: 20px;
         transition: all .2s ease-out;
     }
+    .headerBigger {
+        height: 100%;
+    }
     .nav {
         display: none;
     }
