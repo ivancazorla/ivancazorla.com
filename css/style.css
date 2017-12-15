@@ -100,6 +100,7 @@ p {
         -webkit-transition: all .5s ease-out;
         margin: 0;
         padding: 0;
+        z-index: 1000;
     }
     .nav-mobile a {
         color: white;
