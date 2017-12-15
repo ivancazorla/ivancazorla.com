@@ -88,6 +88,7 @@ p {
     }
     .headerBigger {
         height: 100%;
+        z-index: 5000;
     }
     .nav {
         display: none;
