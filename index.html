@@ -83,6 +83,7 @@
                 $(".bar3").toggleClass("moveThree");
                 $(".header").toggleClass("headerBigger");
             }
+
             function showNavToo() {
                 $(".nav-mobile").toggleClass("show");
                 $(".bar1, .bar2, .bar3").toggleClass("bar-color");
@@ -92,7 +93,7 @@
                 $(".bar3").toggleClass("moveThree");
                 $(".header").toggleClass("headerBigger");
             }
-            //header changes color and height when user scrolls
+            //header changes color and padding when user scrolls
             $(function() {
                 $(window).on("scroll", function() {
                     if ($(window).scrollTop() > 50) {
