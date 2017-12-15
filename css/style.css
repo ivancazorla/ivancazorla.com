@@ -134,6 +134,10 @@ p {
     .antilop2 {
         width: 100%;
     }
+    footer {
+        padding: 22px 20px;
+        font-size: 16px;
+    }
 }
 
 /*---TABLET---*/
@@ -187,6 +191,10 @@ p {
     }
     .nav {
         display: none;
+    }
+    footer {
+        padding: 24px 20px;
+        font-size: 17px;
     }
 }
 
@@ -258,20 +266,24 @@ p {
     ul li {
         display: -webkit-inline-box;
         margin: 0;
-        padding: 10px 0;
+        padding: 12px 0 13px 0;
     }
     ul li a {
         cursor: pointer;
         color: #222;
         text-decoration: none;
         font-size: 20px;
-        padding: 10px 20px;
+        padding: 12px 20px 13px 20px;
     }
     .hamburger {
         display: none;
     }
     .nav-hamburger {
         display: none;
+    }
+    footer {
+        padding: 25px 20px;
+        font-size: 20px;
     }
 }
 
@@ -333,7 +345,6 @@ p {
 
 footer {
     background: #222;
-    padding: 20px 20px;
     color: #fff;
     text-align: center;
     bottom: 0;
